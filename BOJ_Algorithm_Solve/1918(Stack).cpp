@@ -1,142 +1,121 @@
 #include<iostream>
 #include<string>
+#define endl '\n';
 using namespace std;
 
-struct Node
+class node
 {
+public:
 	char value;
-	Node* next;
-	Node()
+	node* next;
+	node()
 	{
 		value = 0;
 		next = NULL;
 	}
 };
-struct List
+
+class stackList
 {
-	Node* head;		// = Top
-	Node* tail;
-	Node* top;
-	int size;
-	List()
+public:
+	node* head;
+	node* ptr;
+	int size = 0;
+
+	void push(char x)
 	{
-		head = NULL;
-		tail = NULL;
-		size = 0;
-		top = NULL;
+		node* new_node = new node;
+		new_node->value = x;
+
+		if (size == 0)
+			head = new_node;
+		else
+		{
+			new_node->next = head;
+			head = new_node;
+		}
+		size++;
+	}
+	char pop()
+	{
+		char tmp;
+		if (size == 0)
+			return -1;
+		else
+		{
+			tmp = head->value;
+			head = head->next;
+		}
+		size--;
+
+		return tmp;
+	}
+	char top()
+	{
+		if (size == 0)
+			return -1;
+		else
+			return head->value;
+	}
+	int empty()
+	{
+		if (size == 0)
+			return 1;
+		else
+			return 0;
+	}
+	int isSize()
+	{
+		return size;
 	}
 };
-void pushnode(List* mylist, char a)
-{
-	Node* new_node = new Node();
-	new_node->value = a;
-
-	if (mylist->head == NULL)
-	{
-		mylist->head = new_node;
-		mylist->tail = mylist->head;
-		mylist->tail->next = 0;
-	}
-	else
-	{
-		new_node->next = mylist->head;
-		mylist->head = new_node;
-	}
-	mylist->size = mylist->size + 1;
-	mylist->top = mylist->head;
-}
-char popnode(List* mylist)
-{
-	char ret = mylist->head->value;
-	Node* tmp_node = mylist->head;
-
-	if (mylist->head == mylist->tail)
-	{
-		mylist->head = NULL;
-		mylist->tail = NULL;
-	}
-	else
-	{
-		mylist->head = tmp_node->next;
-		delete tmp_node;
-	}
-	mylist->top = mylist->head;
-	mylist->size = mylist->size - 1;
-	return ret;
-}
-int priority(char b)
-{
-	if (b == '*' || b == '/')
-		return 2;
-	else if (b == '+' || b == '-')
-		return 1;
-	else
-		return 0;
-}
 
 int main()
 {
-	List mylist;
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	stackList l;
 
 	string s;
 	cin >> s;
 
 	for (int i = 0; i < s.length(); i++)
 	{
-		if (s[i] >= 65 && s[i] <= 90)
+		if (s[i] >= 'A' && s[i] <= 'Z')
 		{
 			cout << s[i];
 		}
 		else
 		{
-			if (s[i] == ')')
+			if (s[i] == '(')
 			{
-				while (1)
-				{
-					if (mylist.top->value == '(')
-					{
-						popnode(&mylist);
-						break;
-					}
-					else
-					{
-						cout << popnode(&mylist);
-					}
-				}
+				l.push(s[i]);
 			}
-			else
+			else if (s[i] == ')')
 			{
-				int one = priority(s[i]);
-				while (1)
-				{
-					if (mylist.head == NULL)
-					{
-						pushnode(&mylist, s[i]);
-						break;
-					}
-					else if (s[i] == '(')
-					{
-						pushnode(&mylist, s[i]);
-						break;
-					}
-					else if (priority(mylist.head->value) < one)
-					{
-						pushnode(&mylist, s[i]);
-						break;
-					}
-					else
-						cout << popnode(&mylist);
-				}
+				while (!l.empty() && l.top() != '(')
+					cout << l.pop();
+				l.pop();
+			}
+			else if (s[i] == '*' || s[i] == '/')
+			{
+				while (!l.empty() && (l.top() == '*' || l.top() == '/'))
+					cout << l.pop();
+				l.push(s[i]);
+			}
+			else if (s[i] == '+' || s[i] == '-')
+			{
+				while (!l.empty() && (l.top() == '+' || l.top() == '-' || l.top() == '*' || l.top() == '/'))
+					cout << l.pop();
+				l.push(s[i]);
 			}
 		}
 	}
-	while (1)
-	{
-		if (mylist.size == 0)
-			break;
-		else
-			cout << popnode(&mylist);
-	}
-	cout << '\n';
+	while (!l.empty())
+		cout << l.pop();
+
+	cout << endl;
+
 	return 0;
 }
