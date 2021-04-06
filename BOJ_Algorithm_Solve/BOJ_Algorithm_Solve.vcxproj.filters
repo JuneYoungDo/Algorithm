@@ -540,5 +540,11 @@
     <ClCompile Include="18429(BackTracking).cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11407(mcmf).cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11409(mcmf).cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
