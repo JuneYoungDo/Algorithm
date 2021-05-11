@@ -546,5 +546,8 @@
     <ClCompile Include="11409(mcmf).cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1068(tree).cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
