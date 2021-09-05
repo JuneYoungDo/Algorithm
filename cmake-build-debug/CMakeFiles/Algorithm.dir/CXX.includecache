@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/juneyoungdo/Desktop/Algorithm/BFS/1926.cpp
+iostream
+-
+queue
+-
+algorithm
+-
+vector
+-
+
