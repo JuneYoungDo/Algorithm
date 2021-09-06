@@ -10,7 +10,7 @@
 using namespace std;
 #define endl '\n'
 
-int n, m, cnt;
+int n, m;
 vector<int> v;
 int map[502][502];
 bool visit[502][502];
@@ -64,11 +64,11 @@ int main() {
         }
     }
     if(v.size() == 0)
-        cout<< 0 << ' '<< 0 <<endl;         // 테케 1 1 0 일때 0개의 답이 나오는 경우를 고려해 주지 않아서 오류 발생했었음
+        cout<< 0 << ' '<< 0 <<endl;
     else {
-        sort(v.begin(), v.end());       // 최고크기
+        sort(v.begin(), v.end());
         cout << v.size() << ' ' << v[v.size() - 1] << endl;
-        // 갯수
     }
     return 0;
 }
+

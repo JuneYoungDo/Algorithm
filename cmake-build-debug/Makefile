@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-BFS/1926.o: BFS/1926.cpp.o
-.PHONY : BFS/1926.o
+BFS/4179.o: BFS/4179.cpp.o
+.PHONY : BFS/4179.o
 
 # target to build an object file
-BFS/1926.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1926.cpp.o
-.PHONY : BFS/1926.cpp.o
+BFS/4179.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/4179.cpp.o
+.PHONY : BFS/4179.cpp.o
 
-BFS/1926.i: BFS/1926.cpp.i
-.PHONY : BFS/1926.i
+BFS/4179.i: BFS/4179.cpp.i
+.PHONY : BFS/4179.i
 
 # target to preprocess a source file
-BFS/1926.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1926.cpp.i
-.PHONY : BFS/1926.cpp.i
+BFS/4179.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/4179.cpp.i
+.PHONY : BFS/4179.cpp.i
 
-BFS/1926.s: BFS/1926.cpp.s
-.PHONY : BFS/1926.s
+BFS/4179.s: BFS/4179.cpp.s
+.PHONY : BFS/4179.s
 
 # target to generate assembly for a file
-BFS/1926.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1926.cpp.s
-.PHONY : BFS/1926.cpp.s
+BFS/4179.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/4179.cpp.s
+.PHONY : BFS/4179.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... BFS/1926.o"
-	@echo "... BFS/1926.i"
-	@echo "... BFS/1926.s"
+	@echo "... BFS/4179.o"
+	@echo "... BFS/4179.i"
+	@echo "... BFS/4179.s"
 .PHONY : help
 
 
