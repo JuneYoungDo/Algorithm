@@ -129,29 +129,101 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-BFS/4179.o: BFS/4179.cpp.o
-.PHONY : BFS/4179.o
+Programmers/20210911_Kakao_CodingTest_1st/programming1.o: Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming1.o
 
 # target to build an object file
-BFS/4179.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/4179.cpp.o
-.PHONY : BFS/4179.cpp.o
+Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.o
 
-BFS/4179.i: BFS/4179.cpp.i
-.PHONY : BFS/4179.i
+Programmers/20210911_Kakao_CodingTest_1st/programming1.i: Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming1.i
 
 # target to preprocess a source file
-BFS/4179.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/4179.cpp.i
-.PHONY : BFS/4179.cpp.i
+Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.i
 
-BFS/4179.s: BFS/4179.cpp.s
-.PHONY : BFS/4179.s
+Programmers/20210911_Kakao_CodingTest_1st/programming1.s: Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming1.s
 
 # target to generate assembly for a file
-BFS/4179.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/4179.cpp.s
-.PHONY : BFS/4179.cpp.s
+Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.s
+
+Programmers/20210911_Kakao_CodingTest_1st/programming2.o: Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming2.o
+
+# target to build an object file
+Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.o
+
+Programmers/20210911_Kakao_CodingTest_1st/programming2.i: Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming2.i
+
+# target to preprocess a source file
+Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.i
+
+Programmers/20210911_Kakao_CodingTest_1st/programming2.s: Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming2.s
+
+# target to generate assembly for a file
+Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.s
+
+Programmers/20210911_Kakao_CodingTest_1st/programming4.o: Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming4.o
+
+# target to build an object file
+Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.o
+
+Programmers/20210911_Kakao_CodingTest_1st/programming4.i: Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming4.i
+
+# target to preprocess a source file
+Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.i
+
+Programmers/20210911_Kakao_CodingTest_1st/programming4.s: Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming4.s
+
+# target to generate assembly for a file
+Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.s
+
+Programmers/20210911_Kakao_CodingTest_1st/programming5.o: Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming5.o
+
+# target to build an object file
+Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.o
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.o
+
+Programmers/20210911_Kakao_CodingTest_1st/programming5.i: Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming5.i
+
+# target to preprocess a source file
+Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.i
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.i
+
+Programmers/20210911_Kakao_CodingTest_1st/programming5.s: Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming5.s
+
+# target to generate assembly for a file
+Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.s
+.PHONY : Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.s
 
 # Help Target
 help:
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... BFS/4179.o"
-	@echo "... BFS/4179.i"
-	@echo "... BFS/4179.s"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming1.o"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming1.i"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming1.s"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming2.o"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming2.i"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming2.s"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming4.o"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming4.i"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming4.s"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming5.o"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming5.i"
+	@echo "... Programmers/20210911_Kakao_CodingTest_1st/programming5.s"
 .PHONY : help
 
 
