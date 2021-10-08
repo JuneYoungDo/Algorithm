@@ -8,10 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/juneyoungdo/Desktop/Algorithm/Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp.o"
-  "/Users/juneyoungdo/Desktop/Algorithm/Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp.o"
-  "/Users/juneyoungdo/Desktop/Algorithm/Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp.o"
-  "/Users/juneyoungdo/Desktop/Algorithm/Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp.o"
+  "/Users/juneyoungdo/Desktop/Algorithm/BFS/1987.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/BFS/1987.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

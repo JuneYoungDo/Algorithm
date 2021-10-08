@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm Programmers/20210911_Kakao_CodingTest_1st/programming2.cpp Programmers/20210911_Kakao_CodingTest_1st/programming1.cpp Programmers/20210911_Kakao_CodingTest_1st/programming5.cpp Programmers/20210911_Kakao_CodingTest_1st/programming4.cpp)
+add_executable(Algorithm BFS/1987.cpp)
