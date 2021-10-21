@@ -129,29 +129,53 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-BFS/1987.o: BFS/1987.cpp.o
-.PHONY : BFS/1987.o
+DP/11055.o: DP/11055.cpp.o
+.PHONY : DP/11055.o
 
 # target to build an object file
-BFS/1987.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1987.cpp.o
-.PHONY : BFS/1987.cpp.o
+DP/11055.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/11055.cpp.o
+.PHONY : DP/11055.cpp.o
 
-BFS/1987.i: BFS/1987.cpp.i
-.PHONY : BFS/1987.i
+DP/11055.i: DP/11055.cpp.i
+.PHONY : DP/11055.i
 
 # target to preprocess a source file
-BFS/1987.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1987.cpp.i
-.PHONY : BFS/1987.cpp.i
+DP/11055.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/11055.cpp.i
+.PHONY : DP/11055.cpp.i
 
-BFS/1987.s: BFS/1987.cpp.s
-.PHONY : BFS/1987.s
+DP/11055.s: DP/11055.cpp.s
+.PHONY : DP/11055.s
 
 # target to generate assembly for a file
-BFS/1987.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1987.cpp.s
-.PHONY : BFS/1987.cpp.s
+DP/11055.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/11055.cpp.s
+.PHONY : DP/11055.cpp.s
+
+test.o: test.cpp.o
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... BFS/1987.o"
-	@echo "... BFS/1987.i"
-	@echo "... BFS/1987.s"
+	@echo "... DP/11055.o"
+	@echo "... DP/11055.i"
+	@echo "... DP/11055.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

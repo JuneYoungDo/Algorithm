@@ -66,30 +66,45 @@ include CMakeFiles/Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm.dir/flags.make
 
-CMakeFiles/Algorithm.dir/BFS/1987.cpp.o: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/BFS/1987.cpp.o: ../BFS/1987.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/BFS/1987.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/BFS/1987.cpp.o -c /Users/juneyoungdo/Desktop/Algorithm/BFS/1987.cpp
+CMakeFiles/Algorithm.dir/test.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/test.cpp.o -c /Users/juneyoungdo/Desktop/Algorithm/test.cpp
 
-CMakeFiles/Algorithm.dir/BFS/1987.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/BFS/1987.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juneyoungdo/Desktop/Algorithm/BFS/1987.cpp > CMakeFiles/Algorithm.dir/BFS/1987.cpp.i
+CMakeFiles/Algorithm.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juneyoungdo/Desktop/Algorithm/test.cpp > CMakeFiles/Algorithm.dir/test.cpp.i
 
-CMakeFiles/Algorithm.dir/BFS/1987.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/BFS/1987.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juneyoungdo/Desktop/Algorithm/BFS/1987.cpp -o CMakeFiles/Algorithm.dir/BFS/1987.cpp.s
+CMakeFiles/Algorithm.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juneyoungdo/Desktop/Algorithm/test.cpp -o CMakeFiles/Algorithm.dir/test.cpp.s
+
+CMakeFiles/Algorithm.dir/DP/11055.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/DP/11055.cpp.o: ../DP/11055.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithm.dir/DP/11055.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/DP/11055.cpp.o -c /Users/juneyoungdo/Desktop/Algorithm/DP/11055.cpp
+
+CMakeFiles/Algorithm.dir/DP/11055.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/DP/11055.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juneyoungdo/Desktop/Algorithm/DP/11055.cpp > CMakeFiles/Algorithm.dir/DP/11055.cpp.i
+
+CMakeFiles/Algorithm.dir/DP/11055.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/DP/11055.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juneyoungdo/Desktop/Algorithm/DP/11055.cpp -o CMakeFiles/Algorithm.dir/DP/11055.cpp.s
 
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
-"CMakeFiles/Algorithm.dir/BFS/1987.cpp.o"
+"CMakeFiles/Algorithm.dir/test.cpp.o" \
+"CMakeFiles/Algorithm.dir/DP/11055.cpp.o"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
 
-Algorithm: CMakeFiles/Algorithm.dir/BFS/1987.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/test.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/DP/11055.cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/build.make
 Algorithm: CMakeFiles/Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
