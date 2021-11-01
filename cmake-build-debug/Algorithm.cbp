@@ -81,6 +81,9 @@
 		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/Backtracking/9663.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/DP/2293.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

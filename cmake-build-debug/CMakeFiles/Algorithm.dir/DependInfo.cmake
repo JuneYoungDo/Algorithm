@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/juneyoungdo/Desktop/Algorithm/Backtracking/9663.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/Backtracking/9663.cpp.o"
+  "/Users/juneyoungdo/Desktop/Algorithm/DP/2293.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/DP/2293.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

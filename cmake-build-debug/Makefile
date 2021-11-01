@@ -153,6 +153,30 @@ Backtracking/9663.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/9663.cpp.s
 .PHONY : Backtracking/9663.cpp.s
 
+DP/2293.o: DP/2293.cpp.o
+.PHONY : DP/2293.o
+
+# target to build an object file
+DP/2293.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/2293.cpp.o
+.PHONY : DP/2293.cpp.o
+
+DP/2293.i: DP/2293.cpp.i
+.PHONY : DP/2293.i
+
+# target to preprocess a source file
+DP/2293.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/2293.cpp.i
+.PHONY : DP/2293.cpp.i
+
+DP/2293.s: DP/2293.cpp.s
+.PHONY : DP/2293.s
+
+# target to generate assembly for a file
+DP/2293.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/2293.cpp.s
+.PHONY : DP/2293.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... Backtracking/9663.o"
 	@echo "... Backtracking/9663.i"
 	@echo "... Backtracking/9663.s"
+	@echo "... DP/2293.o"
+	@echo "... DP/2293.i"
+	@echo "... DP/2293.s"
 .PHONY : help
 
 
