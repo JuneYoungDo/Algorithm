@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm Backtracking/9663.cpp DP/2293.cpp)
+add_executable(Algorithm BFS/1600.cpp)

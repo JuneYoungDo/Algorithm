@@ -129,53 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-Backtracking/9663.o: Backtracking/9663.cpp.o
-.PHONY : Backtracking/9663.o
+BFS/1600.o: BFS/1600.cpp.o
+.PHONY : BFS/1600.o
 
 # target to build an object file
-Backtracking/9663.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/9663.cpp.o
-.PHONY : Backtracking/9663.cpp.o
+BFS/1600.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1600.cpp.o
+.PHONY : BFS/1600.cpp.o
 
-Backtracking/9663.i: Backtracking/9663.cpp.i
-.PHONY : Backtracking/9663.i
-
-# target to preprocess a source file
-Backtracking/9663.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/9663.cpp.i
-.PHONY : Backtracking/9663.cpp.i
-
-Backtracking/9663.s: Backtracking/9663.cpp.s
-.PHONY : Backtracking/9663.s
-
-# target to generate assembly for a file
-Backtracking/9663.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/9663.cpp.s
-.PHONY : Backtracking/9663.cpp.s
-
-DP/2293.o: DP/2293.cpp.o
-.PHONY : DP/2293.o
-
-# target to build an object file
-DP/2293.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/2293.cpp.o
-.PHONY : DP/2293.cpp.o
-
-DP/2293.i: DP/2293.cpp.i
-.PHONY : DP/2293.i
+BFS/1600.i: BFS/1600.cpp.i
+.PHONY : BFS/1600.i
 
 # target to preprocess a source file
-DP/2293.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/2293.cpp.i
-.PHONY : DP/2293.cpp.i
+BFS/1600.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1600.cpp.i
+.PHONY : BFS/1600.cpp.i
 
-DP/2293.s: DP/2293.cpp.s
-.PHONY : DP/2293.s
+BFS/1600.s: BFS/1600.cpp.s
+.PHONY : BFS/1600.s
 
 # target to generate assembly for a file
-DP/2293.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/DP/2293.cpp.s
-.PHONY : DP/2293.cpp.s
+BFS/1600.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1600.cpp.s
+.PHONY : BFS/1600.cpp.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... Backtracking/9663.o"
-	@echo "... Backtracking/9663.i"
-	@echo "... Backtracking/9663.s"
-	@echo "... DP/2293.o"
-	@echo "... DP/2293.i"
-	@echo "... DP/2293.s"
+	@echo "... BFS/1600.o"
+	@echo "... BFS/1600.i"
+	@echo "... BFS/1600.s"
 .PHONY : help
 
 
