@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-BFS/1600.o: BFS/1600.cpp.o
-.PHONY : BFS/1600.o
+Backtracking/13140.o: Backtracking/13140.cpp.o
+.PHONY : Backtracking/13140.o
 
 # target to build an object file
-BFS/1600.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1600.cpp.o
-.PHONY : BFS/1600.cpp.o
+Backtracking/13140.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o
+.PHONY : Backtracking/13140.cpp.o
 
-BFS/1600.i: BFS/1600.cpp.i
-.PHONY : BFS/1600.i
+Backtracking/13140.i: Backtracking/13140.cpp.i
+.PHONY : Backtracking/13140.i
 
 # target to preprocess a source file
-BFS/1600.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1600.cpp.i
-.PHONY : BFS/1600.cpp.i
+Backtracking/13140.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.i
+.PHONY : Backtracking/13140.cpp.i
 
-BFS/1600.s: BFS/1600.cpp.s
-.PHONY : BFS/1600.s
+Backtracking/13140.s: Backtracking/13140.cpp.s
+.PHONY : Backtracking/13140.s
 
 # target to generate assembly for a file
-BFS/1600.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BFS/1600.cpp.s
-.PHONY : BFS/1600.cpp.s
+Backtracking/13140.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.s
+.PHONY : Backtracking/13140.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... BFS/1600.o"
-	@echo "... BFS/1600.i"
-	@echo "... BFS/1600.s"
+	@echo "... Backtracking/13140.o"
+	@echo "... Backtracking/13140.i"
+	@echo "... Backtracking/13140.s"
 .PHONY : help
 
 

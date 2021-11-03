@@ -66,27 +66,27 @@ include CMakeFiles/Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm.dir/flags.make
 
-CMakeFiles/Algorithm.dir/BFS/1600.cpp.o: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/BFS/1600.cpp.o: ../BFS/1600.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/BFS/1600.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/BFS/1600.cpp.o -c /Users/juneyoungdo/Desktop/Algorithm/BFS/1600.cpp
+CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o: ../Backtracking/13140.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o -c /Users/juneyoungdo/Desktop/Algorithm/Backtracking/13140.cpp
 
-CMakeFiles/Algorithm.dir/BFS/1600.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/BFS/1600.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juneyoungdo/Desktop/Algorithm/BFS/1600.cpp > CMakeFiles/Algorithm.dir/BFS/1600.cpp.i
+CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juneyoungdo/Desktop/Algorithm/Backtracking/13140.cpp > CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.i
 
-CMakeFiles/Algorithm.dir/BFS/1600.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/BFS/1600.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juneyoungdo/Desktop/Algorithm/BFS/1600.cpp -o CMakeFiles/Algorithm.dir/BFS/1600.cpp.s
+CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juneyoungdo/Desktop/Algorithm/Backtracking/13140.cpp -o CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.s
 
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
-"CMakeFiles/Algorithm.dir/BFS/1600.cpp.o"
+"CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
 
-Algorithm: CMakeFiles/Algorithm.dir/BFS/1600.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/Backtracking/13140.cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/build.make
 Algorithm: CMakeFiles/Algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm"
