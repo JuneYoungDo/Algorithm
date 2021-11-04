@@ -10,7 +10,7 @@ using namespace std;
 
 int n, t, p;
 int ans;
-bool timeSeat[25][61][101];      // 시간 / 분/ 좌석번호
+bool timeSeat[24][60][101];      // 시간 / 분/ 좌석번호
 // 시작 시간, 시작 분,  끝나는 시간, 끝나는 분
 
 struct isUsed {
@@ -67,7 +67,7 @@ int main() {
     for (int i = 0; i < t; i++) {
         int a, b;
         cin >> a >> b;
-        v.push_back({a / 100, 1 % 100, b / 100, b % 100});
+        v.push_back({a / 100, a % 100, b / 100, b % 100});
     }
     sort(v.begin(), v.end(), cmp);        // 시간 순 정렬
     for (int m = 0; m < t; m++) {
@@ -77,7 +77,7 @@ int main() {
         int endM = v[m].endMin;
         int seat = findSeat(startT, startM);
 
-        for (int i = startT; i < endT; i++) {
+        for (int i = startT; i <= endT; i++) {
             if (startT == endT) {    // 시작시각과 끝 시각이 같은 경우
                 for (int j = startM; j < endM; j++)
                     timeSeat[i][j][seat] = true;
