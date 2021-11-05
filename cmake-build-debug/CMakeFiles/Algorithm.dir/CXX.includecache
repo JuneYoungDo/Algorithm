@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/20665.cpp
+/Users/juneyoungdo/Desktop/Algorithm/1475.cpp
 iostream
 -
-vector
+string
 -
 algorithm
 -
