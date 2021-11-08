@@ -21,20 +21,20 @@ int main() {
 
     cin >> m >> n;
 
-    ll tmp = 0;
+    ll noCandy = 0;
     for (int i = 0; i < n; i++) {
         int x;
-        cin >> n;
+        cin >> x;
         v.push_back(x);
-        tmp += x;
+        noCandy += x;
     }
-    tmp = tmp - m;
+    noCandy = noCandy - m;
     sort(v.begin(), v.end());
 
     for (int i = 0; i < n; i++) {
-        ll minT = min(v[i], tmp / (n - i));
+        ll minT = min(v[i], noCandy / (n - i));
         ans += minT * minT;
-        tmp -= minT;
+        noCandy -= minT;
     }
     cout << ans << endl;
 
