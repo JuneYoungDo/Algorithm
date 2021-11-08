@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/2878.cpp
+/Users/juneyoungdo/Desktop/Algorithm/10799.cpp
 iostream
 -
-vector
+string
 -
-algorithm
+stack
 -
 
