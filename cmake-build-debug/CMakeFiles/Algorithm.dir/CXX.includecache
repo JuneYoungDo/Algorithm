@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/1967.cpp
+/Users/juneyoungdo/Desktop/Algorithm/test.cpp
 iostream
 -
-vector
+queue
+-
+cmath
+-
+algorithm
 -
 
