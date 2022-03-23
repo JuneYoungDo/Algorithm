@@ -78,13 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/2563.cpp">
-			<Option target="Algorithm"/>
-		</Unit>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/5397.cpp">
-			<Option target="Algorithm"/>
-		</Unit>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/test.cpp">
+		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/15684.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/CMakeLists.txt">

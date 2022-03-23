@@ -1,44 +1,51 @@
-#include <iostream>
-#include <queue>
-#include <cmath>
-#include <algorithm>
+#include<iostream>
+#include<algorithm>
+
 using namespace std;
+#define endl '\n'
 
-priority_queue<long long,vector<long long>, greater<long long >> wish;
-long long m, n, sum;
+int R, C, ans;
+char graph[21][21];
+bool isUsed[30];
+pair<int, int> moveRange[4] = {{1,  0},
+                               {0,  1},
+                               {-1, 0},
+                               {0,  -1}};
 
-void input() {
-    cin >> m >> n;
-    int x;
-    sum = 0;
-    for (int i = 0; i < n; i++) {
-        cin >> x;
-        wish.push(x);
-        sum += x;
-    }
+bool validation(int y, int x) {
+    if (y < 0 || y >= R || x < 0 || x >= C) return false;
+    return true;
 }
 
-void Ans() {
-    long long left = sum - m;
-    long long ans = 0;
-    for (int i = 0; i < n; i++) {
-        if (left ==0) break;
-        long long tmp = 0;
-        if (wish.top() >= left / (n - i)) tmp = left / (n - i);
-        else tmp = wish.top();
-        ans += tmp*tmp;
-        left = left -tmp;
-        wish.pop();
+void dfs(int y, int x, int cnt) {
+    ans = max(ans, cnt);
+    for (int i = 0; i < 4; i++) {
+        int nextY = y + moveRange[i].first;
+        int nextX = x + moveRange[i].second;
+        if (validation(nextY, nextX)) {
+            if (isUsed[graph[nextY][nextX] - 'A'] == false) {
+                isUsed[graph[nextY][nextX] - 'A'] = true;
+                dfs(nextY, nextX, cnt + 1);
+                isUsed[graph[nextY][nextX] - 'A'] = false;
+            }
+        }
     }
-    cout << ans;
 }
 
 int main() {
-    cin.tie(NULL);
+
     ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 
-    input();
-    Ans();
+    cin >> R >> C;
+    for (int i = 0; i < R; i++)
+        for (int j = 0; j < C; j++)
+            cin >> graph[i][j];
 
+    isUsed[graph[0][0] - 'A'] = true;
+    dfs(0, 0, 1);
+    cout << ans << endl;
 
+    return 0;
 }

@@ -6,12 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/test.cpp
+/Users/juneyoungdo/Desktop/Algorithm/15684.cpp
 iostream
--
-queue
--
-cmath
 -
 algorithm
 -
