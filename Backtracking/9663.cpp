@@ -13,6 +13,7 @@ int arr[15];
 
 bool isValid(int tmp) {
     for (int i = 0; i < tmp; i++) {
+        // 같은 열, 혹은 대각선 상에 있는 퀸이 있는지 확인
         if (arr[tmp] == arr[i] || tmp - i == abs(arr[tmp] - arr[i]))
             return false;
     }
@@ -26,7 +27,7 @@ void nQueen(int tmp) {
     }
     for (int i = 0; i < n; i++) {
         arr[tmp] = i;
-        if (isValid(tmp)) {
+        if (isValid(tmp)) {         // 해당 위치에 퀸을 두어도 괜찮다면 다음 행에 퀸을 두어본다.
             nQueen(tmp + 1);
         }
     }
@@ -40,7 +41,6 @@ int main() {
     cin >> n;
     nQueen(0);
     cout << cnt << endl;
-
 
     return 0;
 }
