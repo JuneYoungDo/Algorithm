@@ -78,13 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/Programmers/20220326_Line_Plus/2.cpp">
-			<Option target="Algorithm"/>
-		</Unit>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/Programmers/20220326_Line_Plus/3.cpp">
-			<Option target="Algorithm"/>
-		</Unit>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/Programmers/20220326_Line_Plus/4.cpp">
+		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/7568.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/CMakeLists.txt">

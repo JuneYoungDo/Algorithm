@@ -129,77 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-Programmers/20220326_Line_Plus/2.o: Programmers/20220326_Line_Plus/2.cpp.o
-.PHONY : Programmers/20220326_Line_Plus/2.o
+7568.o: 7568.cpp.o
+.PHONY : 7568.o
 
 # target to build an object file
-Programmers/20220326_Line_Plus/2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/2.cpp.o
-.PHONY : Programmers/20220326_Line_Plus/2.cpp.o
+7568.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/7568.cpp.o
+.PHONY : 7568.cpp.o
 
-Programmers/20220326_Line_Plus/2.i: Programmers/20220326_Line_Plus/2.cpp.i
-.PHONY : Programmers/20220326_Line_Plus/2.i
-
-# target to preprocess a source file
-Programmers/20220326_Line_Plus/2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/2.cpp.i
-.PHONY : Programmers/20220326_Line_Plus/2.cpp.i
-
-Programmers/20220326_Line_Plus/2.s: Programmers/20220326_Line_Plus/2.cpp.s
-.PHONY : Programmers/20220326_Line_Plus/2.s
-
-# target to generate assembly for a file
-Programmers/20220326_Line_Plus/2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/2.cpp.s
-.PHONY : Programmers/20220326_Line_Plus/2.cpp.s
-
-Programmers/20220326_Line_Plus/3.o: Programmers/20220326_Line_Plus/3.cpp.o
-.PHONY : Programmers/20220326_Line_Plus/3.o
-
-# target to build an object file
-Programmers/20220326_Line_Plus/3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/3.cpp.o
-.PHONY : Programmers/20220326_Line_Plus/3.cpp.o
-
-Programmers/20220326_Line_Plus/3.i: Programmers/20220326_Line_Plus/3.cpp.i
-.PHONY : Programmers/20220326_Line_Plus/3.i
+7568.i: 7568.cpp.i
+.PHONY : 7568.i
 
 # target to preprocess a source file
-Programmers/20220326_Line_Plus/3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/3.cpp.i
-.PHONY : Programmers/20220326_Line_Plus/3.cpp.i
+7568.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/7568.cpp.i
+.PHONY : 7568.cpp.i
 
-Programmers/20220326_Line_Plus/3.s: Programmers/20220326_Line_Plus/3.cpp.s
-.PHONY : Programmers/20220326_Line_Plus/3.s
-
-# target to generate assembly for a file
-Programmers/20220326_Line_Plus/3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/3.cpp.s
-.PHONY : Programmers/20220326_Line_Plus/3.cpp.s
-
-Programmers/20220326_Line_Plus/4.o: Programmers/20220326_Line_Plus/4.cpp.o
-.PHONY : Programmers/20220326_Line_Plus/4.o
-
-# target to build an object file
-Programmers/20220326_Line_Plus/4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/4.cpp.o
-.PHONY : Programmers/20220326_Line_Plus/4.cpp.o
-
-Programmers/20220326_Line_Plus/4.i: Programmers/20220326_Line_Plus/4.cpp.i
-.PHONY : Programmers/20220326_Line_Plus/4.i
-
-# target to preprocess a source file
-Programmers/20220326_Line_Plus/4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/4.cpp.i
-.PHONY : Programmers/20220326_Line_Plus/4.cpp.i
-
-Programmers/20220326_Line_Plus/4.s: Programmers/20220326_Line_Plus/4.cpp.s
-.PHONY : Programmers/20220326_Line_Plus/4.s
+7568.s: 7568.cpp.s
+.PHONY : 7568.s
 
 # target to generate assembly for a file
-Programmers/20220326_Line_Plus/4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Programmers/20220326_Line_Plus/4.cpp.s
-.PHONY : Programmers/20220326_Line_Plus/4.cpp.s
+7568.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/7568.cpp.s
+.PHONY : 7568.cpp.s
 
 # Help Target
 help:
@@ -210,15 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... Programmers/20220326_Line_Plus/2.o"
-	@echo "... Programmers/20220326_Line_Plus/2.i"
-	@echo "... Programmers/20220326_Line_Plus/2.s"
-	@echo "... Programmers/20220326_Line_Plus/3.o"
-	@echo "... Programmers/20220326_Line_Plus/3.i"
-	@echo "... Programmers/20220326_Line_Plus/3.s"
-	@echo "... Programmers/20220326_Line_Plus/4.o"
-	@echo "... Programmers/20220326_Line_Plus/4.i"
-	@echo "... Programmers/20220326_Line_Plus/4.s"
+	@echo "... 7568.o"
+	@echo "... 7568.i"
+	@echo "... 7568.s"
 .PHONY : help
 
 
