@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/1992.cpp
+/Users/juneyoungdo/Desktop/Algorithm/2240.cpp
 iostream
 -
-vector
+algorithm
 -
 

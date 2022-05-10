@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-1992.o: 1992.cpp.o
-.PHONY : 1992.o
+2240.o: 2240.cpp.o
+.PHONY : 2240.o
 
 # target to build an object file
-1992.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1992.cpp.o
-.PHONY : 1992.cpp.o
+2240.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2240.cpp.o
+.PHONY : 2240.cpp.o
 
-1992.i: 1992.cpp.i
-.PHONY : 1992.i
+2240.i: 2240.cpp.i
+.PHONY : 2240.i
 
 # target to preprocess a source file
-1992.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1992.cpp.i
-.PHONY : 1992.cpp.i
+2240.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2240.cpp.i
+.PHONY : 2240.cpp.i
 
-1992.s: 1992.cpp.s
-.PHONY : 1992.s
+2240.s: 2240.cpp.s
+.PHONY : 2240.s
 
 # target to generate assembly for a file
-1992.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1992.cpp.s
-.PHONY : 1992.cpp.s
+2240.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2240.cpp.s
+.PHONY : 2240.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 1992.o"
-	@echo "... 1992.i"
-	@echo "... 1992.s"
+	@echo "... 2240.o"
+	@echo "... 2240.i"
+	@echo "... 2240.s"
 .PHONY : help
 
 
