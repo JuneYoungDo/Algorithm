@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-2225.o: 2225.cpp.o
-.PHONY : 2225.o
+16936_나3곱2.o: 16936_나3곱2.cpp.o
+.PHONY : 16936_나3곱2.o
 
 # target to build an object file
-2225.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2225.cpp.o
-.PHONY : 2225.cpp.o
+16936_나3곱2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/16936_나3곱2.cpp.o
+.PHONY : 16936_나3곱2.cpp.o
 
-2225.i: 2225.cpp.i
-.PHONY : 2225.i
+16936_나3곱2.i: 16936_나3곱2.cpp.i
+.PHONY : 16936_나3곱2.i
 
 # target to preprocess a source file
-2225.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2225.cpp.i
-.PHONY : 2225.cpp.i
+16936_나3곱2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/16936_나3곱2.cpp.i
+.PHONY : 16936_나3곱2.cpp.i
 
-2225.s: 2225.cpp.s
-.PHONY : 2225.s
+16936_나3곱2.s: 16936_나3곱2.cpp.s
+.PHONY : 16936_나3곱2.s
 
 # target to generate assembly for a file
-2225.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2225.cpp.s
-.PHONY : 2225.cpp.s
+16936_나3곱2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/16936_나3곱2.cpp.s
+.PHONY : 16936_나3곱2.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 2225.o"
-	@echo "... 2225.i"
-	@echo "... 2225.s"
+	@echo "... 16936_나3곱2.o"
+	@echo "... 16936_나3곱2.i"
+	@echo "... 16936_나3곱2.s"
 .PHONY : help
 
 

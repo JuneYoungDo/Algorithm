@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/2225.cpp
+/Users/juneyoungdo/Desktop/Algorithm/16936_나3곱2.cpp
 iostream
+-
+algorithm
+-
+vector
 -
 
