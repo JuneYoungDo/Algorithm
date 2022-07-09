@@ -18,7 +18,7 @@ vector<ll> ans;
 
 void dfs(int idx) {
     ans.push_back(arr[idx]);
-    visited[idx];
+    visited[idx] = true;
     for (int i = idx + 1; i < N; i++) {
         if (arr[i] == arr[idx] * 2 && !visited[i]) {
             dfs(i);
