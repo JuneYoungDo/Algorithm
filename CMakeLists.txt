@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm 16936_나3곱2.cpp)
+add_executable(Algorithm "14391_종이 조각.cpp")

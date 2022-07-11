@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-16936_나3곱2.o: 16936_나3곱2.cpp.o
-.PHONY : 16936_나3곱2.o
+14391_종이_조각.o: 14391_종이_조각.cpp.o
+.PHONY : 14391_종이_조각.o
 
 # target to build an object file
-16936_나3곱2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/16936_나3곱2.cpp.o
-.PHONY : 16936_나3곱2.cpp.o
+14391_종이_조각.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/14391_종이_조각.cpp.o
+.PHONY : 14391_종이_조각.cpp.o
 
-16936_나3곱2.i: 16936_나3곱2.cpp.i
-.PHONY : 16936_나3곱2.i
+14391_종이_조각.i: 14391_종이_조각.cpp.i
+.PHONY : 14391_종이_조각.i
 
 # target to preprocess a source file
-16936_나3곱2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/16936_나3곱2.cpp.i
-.PHONY : 16936_나3곱2.cpp.i
+14391_종이_조각.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/14391_종이_조각.cpp.i
+.PHONY : 14391_종이_조각.cpp.i
 
-16936_나3곱2.s: 16936_나3곱2.cpp.s
-.PHONY : 16936_나3곱2.s
+14391_종이_조각.s: 14391_종이_조각.cpp.s
+.PHONY : 14391_종이_조각.s
 
 # target to generate assembly for a file
-16936_나3곱2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/16936_나3곱2.cpp.s
-.PHONY : 16936_나3곱2.cpp.s
+14391_종이_조각.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/14391_종이_조각.cpp.s
+.PHONY : 14391_종이_조각.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 16936_나3곱2.o"
-	@echo "... 16936_나3곱2.i"
-	@echo "... 16936_나3곱2.s"
+	@echo "... 14391_종이_조각.o"
+	@echo "... 14391_종이_조각.i"
+	@echo "... 14391_종이_조각.s"
 .PHONY : help
 
 

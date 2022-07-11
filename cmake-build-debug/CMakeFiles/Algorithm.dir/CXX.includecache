@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/16936_나3곱2.cpp
+/Users/juneyoungdo/Desktop/Algorithm/14391_종이 조각.cpp
 iostream
 -
 algorithm
 -
+cstring
+-
 vector
+-
+cmath
 -
 
