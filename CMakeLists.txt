@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm "14391_종이 조각.cpp")
+add_executable(Algorithm "1920_수 찾기.cpp")

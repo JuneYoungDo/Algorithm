@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-14391_종이_조각.o: 14391_종이_조각.cpp.o
-.PHONY : 14391_종이_조각.o
+1920_수_찾기.o: 1920_수_찾기.cpp.o
+.PHONY : 1920_수_찾기.o
 
 # target to build an object file
-14391_종이_조각.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/14391_종이_조각.cpp.o
-.PHONY : 14391_종이_조각.cpp.o
+1920_수_찾기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1920_수_찾기.cpp.o
+.PHONY : 1920_수_찾기.cpp.o
 
-14391_종이_조각.i: 14391_종이_조각.cpp.i
-.PHONY : 14391_종이_조각.i
+1920_수_찾기.i: 1920_수_찾기.cpp.i
+.PHONY : 1920_수_찾기.i
 
 # target to preprocess a source file
-14391_종이_조각.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/14391_종이_조각.cpp.i
-.PHONY : 14391_종이_조각.cpp.i
+1920_수_찾기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1920_수_찾기.cpp.i
+.PHONY : 1920_수_찾기.cpp.i
 
-14391_종이_조각.s: 14391_종이_조각.cpp.s
-.PHONY : 14391_종이_조각.s
+1920_수_찾기.s: 1920_수_찾기.cpp.s
+.PHONY : 1920_수_찾기.s
 
 # target to generate assembly for a file
-14391_종이_조각.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/14391_종이_조각.cpp.s
-.PHONY : 14391_종이_조각.cpp.s
+1920_수_찾기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1920_수_찾기.cpp.s
+.PHONY : 1920_수_찾기.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 14391_종이_조각.o"
-	@echo "... 14391_종이_조각.i"
-	@echo "... 14391_종이_조각.s"
+	@echo "... 1920_수_찾기.o"
+	@echo "... 1920_수_찾기.i"
+	@echo "... 1920_수_찾기.s"
 .PHONY : help
 
 

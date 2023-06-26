@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/14391_종이 조각.cpp
+/Users/juneyoungdo/Desktop/Algorithm/1920_수 찾기.cpp
 iostream
 -
 algorithm
--
-cstring
--
-vector
--
-cmath
 -
 

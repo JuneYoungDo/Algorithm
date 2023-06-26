@@ -32,11 +32,11 @@ void BFS(int index) {
         int now = q.front();
         q.pop();
         if (visit[now] == true) { continue; }
-        visit[now] = true;
         cout << now << " ";
         for (int i = 0; i < graph[now].size(); i++) {
             if (visit[graph[now][i]] == false) {
                 q.push(graph[now][i]);
+                visit[graph[now][i]] = true;
             }
         }
     }
