@@ -46,7 +46,7 @@ int main() {
     bs();
     sort(v.begin(), v.end());
 
-    cout << v[0] << endl;
+    cout << v[v.size() - 1] << endl;
 
     return 0;
 }
