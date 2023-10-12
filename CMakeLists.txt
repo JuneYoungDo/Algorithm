@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm "1920_수 찾기.cpp")
+add_executable(Algorithm 1654_랜선자르기.cpp)

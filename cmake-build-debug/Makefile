@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-1920_수_찾기.o: 1920_수_찾기.cpp.o
-.PHONY : 1920_수_찾기.o
+1654_랜선자르기.o: 1654_랜선자르기.cpp.o
+.PHONY : 1654_랜선자르기.o
 
 # target to build an object file
-1920_수_찾기.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1920_수_찾기.cpp.o
-.PHONY : 1920_수_찾기.cpp.o
+1654_랜선자르기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.o
+.PHONY : 1654_랜선자르기.cpp.o
 
-1920_수_찾기.i: 1920_수_찾기.cpp.i
-.PHONY : 1920_수_찾기.i
+1654_랜선자르기.i: 1654_랜선자르기.cpp.i
+.PHONY : 1654_랜선자르기.i
 
 # target to preprocess a source file
-1920_수_찾기.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1920_수_찾기.cpp.i
-.PHONY : 1920_수_찾기.cpp.i
+1654_랜선자르기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.i
+.PHONY : 1654_랜선자르기.cpp.i
 
-1920_수_찾기.s: 1920_수_찾기.cpp.s
-.PHONY : 1920_수_찾기.s
+1654_랜선자르기.s: 1654_랜선자르기.cpp.s
+.PHONY : 1654_랜선자르기.s
 
 # target to generate assembly for a file
-1920_수_찾기.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1920_수_찾기.cpp.s
-.PHONY : 1920_수_찾기.cpp.s
+1654_랜선자르기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.s
+.PHONY : 1654_랜선자르기.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 1920_수_찾기.o"
-	@echo "... 1920_수_찾기.i"
-	@echo "... 1920_수_찾기.s"
+	@echo "... 1654_랜선자르기.o"
+	@echo "... 1654_랜선자르기.i"
+	@echo "... 1654_랜선자르기.s"
 .PHONY : help
 
 
