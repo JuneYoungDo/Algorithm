@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-1654_랜선자르기.o: 1654_랜선자르기.cpp.o
-.PHONY : 1654_랜선자르기.o
+test.o: test.cpp.o
+.PHONY : test.o
 
 # target to build an object file
-1654_랜선자르기.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.o
-.PHONY : 1654_랜선자르기.cpp.o
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-1654_랜선자르기.i: 1654_랜선자르기.cpp.i
-.PHONY : 1654_랜선자르기.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-1654_랜선자르기.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.i
-.PHONY : 1654_랜선자르기.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-1654_랜선자르기.s: 1654_랜선자르기.cpp.s
-.PHONY : 1654_랜선자르기.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-1654_랜선자르기.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.s
-.PHONY : 1654_랜선자르기.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 1654_랜선자르기.o"
-	@echo "... 1654_랜선자르기.i"
-	@echo "... 1654_랜선자르기.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

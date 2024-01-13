@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/juneyoungdo/Desktop/Algorithm/1654_랜선자르기.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/1654_랜선자르기.cpp.o"
+  "/Users/juneyoungdo/Desktop/Algorithm/test.cpp" "/Users/juneyoungdo/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

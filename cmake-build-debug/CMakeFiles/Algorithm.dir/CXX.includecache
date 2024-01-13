@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/juneyoungdo/Desktop/Algorithm/1654_랜선자르기.cpp
+/Users/juneyoungdo/Desktop/Algorithm/test.cpp
 iostream
 -
 vector
 -
-algorithm
+map
 -
 
