@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-test.o: test.cpp.o
-.PHONY : test.o
+2024/03/[2024.03.24]_BOJ_2151_거울_설치.o: 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o
+.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.o
-.PHONY : test.cpp.o
+2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o
+.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+2024/03/[2024.03.24]_BOJ_2151_거울_설치.i: 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i
+.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.i
-.PHONY : test.cpp.i
+2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i
+.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+2024/03/[2024.03.24]_BOJ_2151_거울_설치.s: 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s
+.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/test.cpp.s
-.PHONY : test.cpp.s
+2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s
+.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... 2024/03/[2024.03.24]_BOJ_2151_거울_설치.o"
+	@echo "... 2024/03/[2024.03.24]_BOJ_2151_거울_설치.i"
+	@echo "... 2024/03/[2024.03.24]_BOJ_2151_거울_설치.s"
 .PHONY : help
 
 
