@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm "2024/03/[2024.03.24] BOJ_2151_거울 설치.cpp")
+add_executable(Algorithm "2024/03/[2024.03.26] BOJ_14502_연구소.cpp")

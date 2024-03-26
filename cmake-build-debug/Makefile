@@ -129,29 +129,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-2024/03/[2024.03.24]_BOJ_2151_거울_설치.o: 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o
-.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.o
+2024/03/[2024.03.26]_BOJ_14502_연구소.o: 2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.o
+.PHONY : 2024/03/[2024.03.26]_BOJ_14502_연구소.o
 
 # target to build an object file
-2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o
-.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.o
+2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.o
+.PHONY : 2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.o
 
-2024/03/[2024.03.24]_BOJ_2151_거울_설치.i: 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i
-.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.i
+2024/03/[2024.03.26]_BOJ_14502_연구소.i: 2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.i
+.PHONY : 2024/03/[2024.03.26]_BOJ_14502_연구소.i
 
 # target to preprocess a source file
-2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i
-.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.i
+2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.i
+.PHONY : 2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.i
 
-2024/03/[2024.03.24]_BOJ_2151_거울_설치.s: 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s
-.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.s
+2024/03/[2024.03.26]_BOJ_14502_연구소.s: 2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.s
+.PHONY : 2024/03/[2024.03.26]_BOJ_14502_연구소.s
 
 # target to generate assembly for a file
-2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s
-.PHONY : 2024/03/[2024.03.24]_BOJ_2151_거울_설치.cpp.s
+2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.s
+.PHONY : 2024/03/[2024.03.26]_BOJ_14502_연구소.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
-	@echo "... 2024/03/[2024.03.24]_BOJ_2151_거울_설치.o"
-	@echo "... 2024/03/[2024.03.24]_BOJ_2151_거울_설치.i"
-	@echo "... 2024/03/[2024.03.24]_BOJ_2151_거울_설치.s"
+	@echo "... 2024/03/[2024.03.26]_BOJ_14502_연구소.o"
+	@echo "... 2024/03/[2024.03.26]_BOJ_14502_연구소.i"
+	@echo "... 2024/03/[2024.03.26]_BOJ_14502_연구소.s"
 .PHONY : help
 
 

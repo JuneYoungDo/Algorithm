@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/2024/03/[2024.03.24] BOJ_2151_거울 설치.cpp">
+		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/2024/03/[2024.03.26] BOJ_14502_연구소.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/juneyoungdo/Desktop/Algorithm/CMakeLists.txt">
